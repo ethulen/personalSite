@@ -1,5 +1,6 @@
 import React from 'react';
 import Resume from './Resume';
+import Math from './Math';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import './App.css';
 
@@ -37,6 +38,11 @@ function App() {
       </section>
       
       {/* Math Function Section */}
+      <section id="math-function" className="bg-light py-5">
+        <div>
+          <Math/>
+        </div>
+      </section>
 
       {/* Footer */}
       <footer className="bg-dark text-white text-center py-3">
