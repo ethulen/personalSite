@@ -1,13 +1,8 @@
 import React, { useState } from 'react';
+import './styles.css'
 
 const Resume = () => {
   const [resumeData, setResumeData] = useState({
-    personalInfo: {
-      name: 'Ethan Hulen',
-      address: '9574 W 87th St. Overland Park, KS 66212',
-      phone: '(913) 231-1170',
-      email: 'ethulen01@gmail.com',
-    },
     education: [
       {
         school: 'Kansas State University, Manhattan, KS',
@@ -77,10 +72,7 @@ const Resume = () => {
   });
 
   return (
-    <div>
-      <h2>{resumeData.personalInfo.name}</h2>
-      <p>{resumeData.personalInfo.address} | {resumeData.personalInfo.phone} | {resumeData.personalInfo.email}</p>
-
+    <div className="resume">
       <h3>EDUCATION</h3>
       {resumeData.education.map((edu, index) => (
         <p key={index}>
