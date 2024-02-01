@@ -1,11 +1,138 @@
-/* Add your custom styles here */
+/* Home Section */
 .hero {
-  background-color: #343a40;
-  color: #ffffff;
-  padding: 80px 0;
+  padding: 40px 20px;
+  background-color: #007bff;
+  color: #fff;
   text-align: center;
 }
-.resume {
-  padding-left: 20px;
+
+.hero img {
+  border: 3px solid #fff;
+  border-radius: 50%;
 }
+
+.bio {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 95%;
+  margin: 20px;
+  text-align: center;
+}
+
+.caption{
+  margin: 20px;
+  text-align: center;
+}
+
+.image img {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  width: 715px;
+}
+
+/* Resume Section */
+
+.resume {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.resume p {
+  margin-bottom: 8px;
+}
+
+.resume ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.resume li {
+  list-style-type: square;
+  margin-bottom: 4px;
+}
+
+.resume strong {
+  color: #CF9FFF;
+}
+
+.resume em {
+  color: #6c757d;
+}
+
+.resume div {
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+  background-color: #f8f9fa;
+  max-width: 800px;
+  margin: auto;
+}
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  padding-bottom: 20 px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Contact Section */
+
+.contact-section {
+  background-color: #f8f9fa;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info h4 {
+  margin-top: 0;
+  display: block;
+  text-align: center;
+}
+
+.contact-info p {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
   

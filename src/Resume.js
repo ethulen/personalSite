@@ -73,6 +73,9 @@ const Resume = () => {
 
   return (
     <div className="resume">
+      <div className="container">
+        <h2 className="text-center mb-4">My Resume</h2>
+      </div>
       <h3>EDUCATION</h3>
       {resumeData.education.map((edu, index) => (
         <p key={index}>

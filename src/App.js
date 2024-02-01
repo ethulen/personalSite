@@ -9,6 +9,8 @@ import {
   Route,
 } from "react-router-dom";
 import './App.css';
+import Portfolio from './Portfolio';
+import Contact from './Contact';
 
 function App() {
   return (
@@ -22,6 +24,14 @@ function App() {
                 <Route
                     path="/math"
                     element={<Math />}
+                />
+                <Route
+                    path="/portfolio"
+                    element={<Portfolio />}
+                />
+                <Route
+                    path="/contact"
+                    element={<Contact />}
                 />
             </Routes>
       </Router>

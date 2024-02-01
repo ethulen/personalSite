@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import './Math.css'; 
 
-const RectangleAreaCalculator = () => {
+const Math = () => {
   const [length, setLength] = useState('');
   const [width, setWidth] = useState('');
   const [area, setArea] = useState('');
@@ -18,11 +19,11 @@ const RectangleAreaCalculator = () => {
   };
 
   return (
-    <div>
+    <div className="rectangle-calculator">
       <h2>Rectangle Area Calculator</h2>
       <form id="rectangleForm">
-        <div className="mb-3">
-          <label htmlFor="length" className="form-label">Length:</label>
+        <div className="form-group">
+          <label htmlFor="length">Length:</label>
           <input
             type="number"
             className="form-control"
@@ -34,8 +35,8 @@ const RectangleAreaCalculator = () => {
           />
         </div>
 
-        <div className="mb-3">
-          <label htmlFor="width" className="form-label">Width:</label>
+        <div className="form-group">
+          <label htmlFor="width">Width:</label>
           <input
             type="number"
             className="form-control"
@@ -50,11 +51,11 @@ const RectangleAreaCalculator = () => {
         <button type="button" className="btn btn-primary" onClick={calculateArea}>Calculate Area</button>
       </form>
 
-      <div id="result" className="mt-4">
+      <div id="result" className={`mt-4 ${area ? 'result-visible' : 'result-hidden'}`}>
         {area && <p>{area}</p>}
       </div>
     </div>
   );
 };
 
-export default RectangleAreaCalculator;
+export default Math;
