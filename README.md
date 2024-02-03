@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Ethan Hulen's Web Development Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my web development portfolio! I'm Ethan Hulen, a passionate web developer with a strong background in computer science. This portfolio showcases my skills, experiences, and the exciting projects I've worked on.
 
-## Available Scripts
+## About Me
 
-In the project directory, you can run:
+I graduated from Kansas State University with a Bachelor of Science in Computer Science, and I've been on a journey of crafting exceptional web experiences ever since. My expertise spans both front-end and back-end technologies, and I enjoy bringing ideas to life through clean and efficient code.
 
-### `npm start`
+## Portfolio Sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Home
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The home section introduces me, featuring a brief bio, a professional photo, and insights into my web development journey. Explore this section to learn more about my background and passion for creating outstanding web experiences.
 
-### `npm test`
+### Resume
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The resume section provides a detailed overview of my education, professional experiences, skills, certifications, and other achievements. Dive into this section to get a comprehensive look at my career and skills.
 
-### `npm run build`
+### Portfolio
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Explore my portfolio to see some of the exciting projects I've had the opportunity to work on. Each project comes with a description and showcases my skills in action. From website development to data science projects, this section covers a range of my work.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Contact
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I'd love to hear from you! The contact section provides my contact information, and you can use the form to send me a message. Whether you have a project in mind or just want to connect, feel free to reach out.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To explore my portfolio:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone this repository to your local machine.
+2. Open the `index.html` file in your web browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Feel free to navigate through the sections and explore the various projects in my portfolio.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Connect With Me
 
-## Learn More
+- Email: [ethulen01@gmail.com](mailto:ethulen01@gmail.com)
+- LinkedIn: [Ethan Hulen](https://www.linkedin.com/in/ethan-hulen/)
+- GitHub: [Ethan's GitHub](https://github.com/ethulen)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Thank you for visiting my web development portfolio! I look forward to connecting with you.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding!
