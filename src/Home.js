@@ -3,11 +3,18 @@ import './styles.css';
 import headshot from "./headshot.jpg";
 import bella from "./bella.jpg";
 import AbramsFalls from "./AbramsFalls.jpg";
+import treeline from "./treeline.jpg";
 
 const Home = () => {
+  const heroStyle = {
+    backgroundImage: `url(${treeline})`,
+    backgroundSize: 'cover', // Adjust this property to fit your needs
+    backgroundPosition: 'center', // Adjust this property to fit your needs
+    color: 'white', // Adjust the text color based on your background
+  };
   return (
     <div>
-      <div className="hero text-center">
+      <div className="hero text-center" style={heroStyle}>
         <img src={headshot} alt="Ethan Hulen" className="img-fluid rounded-circle" width="150" />
         <h1 className="mt-3">Ethan Hulen</h1>
         <p className="lead">Passionate Web Developer</p>

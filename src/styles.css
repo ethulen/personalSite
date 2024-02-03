@@ -4,6 +4,8 @@
   background-color: #007bff;
   color: #fff;
   text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: x-large;
 }
 
 .hero img {
@@ -21,6 +23,7 @@
   width: 95%;
   margin: 20px;
   text-align: center;
+  font-size: large;
 }
 
 .caption{
@@ -47,6 +50,8 @@
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding-bottom: 100px;
 }
 
 .resume h3 {
@@ -69,7 +74,7 @@
 }
 
 .resume strong {
-  color: #CF9FFF;
+  color: #304529;
 }
 
 .resume em {
@@ -90,18 +95,27 @@
   background-color: #f8f9fa;
   max-width: 800px;
   margin: auto;
+  padding-bottom: 100px;
 }
 
 .portfolio-item {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out;
   padding-bottom: 20 px;
+  margin-bottom: 20px;
 }
 
-.portfolio-item img {
+.image-container {
+  display: flex;
+  gap: 10px; /* Adjust as needed for spacing between images */
+  width: 24%;
+  height: auto;
+}
+
+.portfolio-item img{
   width: 100%;
   height: auto;
 }
@@ -109,13 +123,28 @@
 /* Contact Section */
 
 .contact-section {
-  background-color: #f8f9fa;
+  padding-top: 50px;
   max-width: 400px;
   margin: auto;
+  background-color: #f8f9fa;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color:black;
+}
+
+.contact-wrapper {
+  padding-top: 50px; /* Adjust as needed for the space between the contact form and the navigation bar */
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.textbox input,
+.textbox textarea {
+    width: 100%;
 }
 
 .contact-form {
@@ -135,4 +164,8 @@
   margin-bottom: 8px;
 }
 
-  
+body {
+  min-height: 400px;
+  margin-bottom: 100px;
+  clear: both;
+}

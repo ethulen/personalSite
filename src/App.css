@@ -1,7 +1,7 @@
 /* App.css */
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,16 +24,6 @@ body {
 
 section {
   padding: 40px 0;
-}
-
-.resume-section,
-.math-section {
-  background-color: #ffffff;
-  border: 1px solid #dee2e6;
-  border-radius: 10px;
-  padding: 30px;
-  margin-bottom: 20px;
-  padding-bottom: 30%;
 }
 
 footer {

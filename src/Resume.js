@@ -72,7 +72,7 @@ const Resume = () => {
   });
 
   return (
-    <div className="resume">
+    <div className="resume body">
       <div className="container">
         <h2 className="text-center mb-4">My Resume</h2>
       </div>

@@ -1,25 +1,52 @@
 .rectangle-calculator {
-    max-width: 400px;
-    margin: auto;
-  }
-  
-  .form-group {
-    margin-bottom: 1rem;
-  }
-  
-  #result {
-    margin-top: 1rem;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f8f9fa;
-  }
-  
-  .result-hidden {
-    display: none;
-  }
-  
-  .result-visible {
-    display: block;
-  }
-  
+  max-width: 400px;
+  margin: auto;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color:black;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+#result {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+}
+
+.result-hidden {
+  display: none;
+}
+
+.result-visible {
+  display: block;
+}
+
+.textbox input,
+.textbox textarea {
+  width: 100%;
+}
+
+body, html {
+  height: 100%;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("treeline.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
