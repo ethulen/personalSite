@@ -17,29 +17,31 @@ function App() {
     <div>
       {/* Navbar */}
       <Router>
-            <Navbar />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<Resume />} />
-                <Route
-                    path="/math"
-                    element={<Math />}
-                />
-                <Route
-                    path="/portfolio"
-                    element={<Portfolio />}
-                />
-                <Route
-                    path="/contact"
-                    element={<Contact />}
-                />
-            </Routes>
-      </Router>
+        <Navbar />
+        <div className="container-fluid">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<Resume />} />
+            <Route
+              path="/math"
+              element={<Math />}
+            />
+            <Route
+              path="/portfolio"
+              element={<Portfolio />}
+            />
+            <Route
+              path="/contact"
+              element={<Contact />}
+            />
+          </Routes>
+        </div>
 
-      {/* Footer */}
-      <footer className="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Ethan Hulen</p>
-      </footer>
+        {/* Footer */}
+        <footer className="bg-dark text-white text-center py-3">
+          <p>&copy; 2024 Ethan Hulen</p>
+        </footer>
+      </Router>
     </div>
   );
 }

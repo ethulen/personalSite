@@ -1,38 +1,50 @@
-// components/Navbar/index.js
-
-import React from "react";
-import {
-	Nav,
-	NavLink,
-	Bars,
-	NavMenu,
-} from "./NavbarElements";
+// Navbar.js
+import React, { useState, useEffect } from 'react';
+import { Nav, NavMenu, NavLink } from './NavbarElements';
+import MobileMenu from './MobileMenu';
 
 const Navbar = () => {
-	return (
-		<>
-			<Nav>
-				<Bars />
-				<NavMenu>
-                    <NavLink to="/" >
-						Home
-					</NavLink>
-					<NavLink to="/about" >
-						About
-					</NavLink>
-					<NavLink to="/math" activeStyle>
-						Math
-					</NavLink>
-					<NavLink to="/portfolio" activeStyle>
-						Portfolio
-					</NavLink>
-					<NavLink to="/contact" activeStyle>
-						Contact
-					</NavLink>
-				</NavMenu>
-			</Nav>
-		</>
-	);
+  const [isOpen, setIsOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const toggleMobileMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <Nav>
+      {isMobile && <MobileMenu />}
+      <NavMenu isOpen={isOpen}>
+        <NavLink to="/" onClick={toggleMobileMenu}>
+          Home
+        </NavLink>
+        <NavLink to="/about" onClick={toggleMobileMenu}>
+          About
+        </NavLink>
+        <NavLink to="/math" activeStyle onClick={toggleMobileMenu}>
+          Math
+        </NavLink>
+        <NavLink to="/portfolio" activeStyle onClick={toggleMobileMenu}>
+          Portfolio
+        </NavLink>
+        <NavLink to="/contact" activeStyle onClick={toggleMobileMenu}>
+          Contact
+        </NavLink>
+      </NavMenu>
+    </Nav>
+  );
 };
 
 export default Navbar;

@@ -11,7 +11,6 @@ const Math = () => {
     backgroundImage: `url(${treeline})`,
     backgroundSize: 'cover', // Adjust this property to fit your needs
     backgroundPosition: 'center', // Adjust this property to fit your needs
-    color: 'white', // Adjust the text color based on your background
     backgroundRepeat: 'no-repeat',
     width: '100vw',
     height: '100vh'

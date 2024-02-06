@@ -1,52 +1,57 @@
-.rectangle-calculator {
-  max-width: 400px;
-  margin: auto;
-  background-color: #f8f9fa;
+/* Math.css */
+.hero {
   padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  padding-right: 20px;
+}
+
+.hero img {
+  border: 3px solid #fff;
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+.rectangle-calculator {
+  padding: 10px;
+  background-color: #f8f9fa;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
   color:black;
+  max-width: 60%;
+}
+
+.rectangle-calculator h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .form-group {
   margin-bottom: 1rem;
 }
 
-#result {
-  margin-top: 1rem;
-  padding: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  background-color: #f8f9fa;
+.form-control {
+  width: calc(100% - 20px);
 }
 
-.result-hidden {
-  display: none;
+.btn-primary {
+  width: 100%;
+  margin-top: 10px;
+}
+
+#result {
+  margin-top: 20px;
 }
 
 .result-visible {
   display: block;
 }
 
-.textbox input,
-.textbox textarea {
-  width: 100%;
-}
-
-body, html {
-  height: 100%;
-}
-
-.bg {
-  /* The image used */
-  background-image: url("treeline.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.result-hidden {
+  display: none;
 }

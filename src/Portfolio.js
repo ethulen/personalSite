@@ -34,7 +34,7 @@ const Portfolio = () => {
 
                 <div className="col-md-4 mb-4">
                     <div className="portfolio-item">
-                        <img src={Appraisals} alt="Appraisals" className="img-fluid" />
+                        <img src={Appraisals} alt="Appraisals" />
                         <div className="caption">
                             <h4><a href="https://www.purplewave.com/appraisals">Purple Wave Appraisal Services</a></h4>
                             <p>When I was an intern at Purple Wave Auction, my team helped create this page to integrate Heavyworth Appraisal Services' functionality into the Purple Wave site. </p>
@@ -44,7 +44,7 @@ const Portfolio = () => {
 
                 <div className="col-md-4 mb-4">
                     <div className="portfolio-item">
-                        <img src={FrontPage} alt="FrontPage" className="img-fluid" />
+                        <img src={FrontPage} alt="FrontPage" />
                         <div className="caption">
                             <h4>FrontPage</h4>
                             <p>This is the landing page for my college senior project, a news aggregator called FrontPage.</p>
